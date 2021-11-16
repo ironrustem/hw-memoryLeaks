@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-protocol CatsAdditionalViewDelegate: Any { }
+protocol CatsAdditionalViewDelegate: AnyObject { }
 
 class CatsAdditionalView: UIView {
     
-    var delegate: CatsAdditionalViewDelegate?
+    weak var delegate: CatsAdditionalViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)

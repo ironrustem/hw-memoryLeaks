@@ -11,7 +11,7 @@ final class CatsPresenter: CatsPresentationLogic {
 
     // MARK: - Instance Properties
 
-    private var viewController: CatsViewDisplayLogic!
+    private weak var viewController: CatsViewDisplayLogic!
 
     // MARK: - Initializers
 

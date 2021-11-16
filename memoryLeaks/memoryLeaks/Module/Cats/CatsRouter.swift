@@ -11,7 +11,7 @@ final class CatsRouter: CatsRoutingLogic {
 
     // MARK: - Instance Properties
 
-    private var viewController: UIViewController!
+    private weak var viewController: UIViewController!
 
     // MARK: - Initializers
 
